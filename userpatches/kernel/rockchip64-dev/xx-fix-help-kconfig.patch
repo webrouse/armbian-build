@@ -1,0 +1,13 @@
+diff --git a/drivers/video/console/Kconfig b/drivers/video/console/Kconfig
+index fe0aff280..194fd607b 100644
+--- a/drivers/video/console/Kconfig
++++ b/drivers/video/console/Kconfig
+@@ -164,7 +164,7 @@ config FRAMEBUFFER_CONSOLE_DEFERRED_TAKEOVER
+ config BOOTSPLASH
+ 	bool "Bootup splash screen"
+ 	depends on FRAMEBUFFER_CONSOLE
+-	---help---
++	help
+ 	  This option enables the Linux bootsplash screen.
+ 
+ 	  The bootsplash is a full-screen logo or animation indicating a

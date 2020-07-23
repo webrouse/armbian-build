@@ -15,8 +15,15 @@ ubuntu-*-cloudimg-console.log
 /.tmp/
 /output/
 /cache/
-/*userpatches*/
-/userpatches
+#/*userpatches*/
+#/userpatches
+/userpatches/Dockerfile
+/userpatches/README
+/userpatches/Vagrantfile
+/userpatches/config-docker.conf
+/userpatches/config-example.conf
+/userpatches/config-vagrant.conf
+/userpatches/customize-image.sh
 
 ### General annoyances ###
 .DS_Store
