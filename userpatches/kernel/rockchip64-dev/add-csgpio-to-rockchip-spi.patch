@@ -77,7 +77,7 @@ index 2cc6d99..19e05ad 100644
  
  	ctlr->set_cs = rockchip_spi_set_cs;
 +	ctlr->setup = rockchip_spi_setup;
-+	ctlr->cleanup = rockchip_spi_cleanup
++	ctlr->cleanup = rockchip_spi_cleanup;
  	ctlr->transfer_one = rockchip_spi_transfer_one;
  	ctlr->max_transfer_size = rockchip_spi_max_transfer_size;
  	ctlr->handle_err = rockchip_spi_handle_err;
