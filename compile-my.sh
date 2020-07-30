@@ -1,3 +1,3 @@
 #!/bin/bash
-./compile.sh docker
+./compile.sh docker CREATE_PATCHES=yes
 
